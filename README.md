@@ -5,4 +5,8 @@ const double PI = 3.14;
 double degreestoradians(double degree) {
     radians==( degrees * 3.14/180 );
 }
+double getAirdistance(double originLatitude, double originlongitude, double destinationLatitude, double destinationLongitude) {
+    double R = 6371;
+}
+
 
