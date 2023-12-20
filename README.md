@@ -16,5 +16,13 @@ double getAirdistance(double originLatitude, double originlongitude, double dest
     double distance = acos(sin(originLatitude) * sin(destinationLatitude) + cos(originLatitude) * cos(destinationLatitude) * cos(delta))* r;
     return distance;
 }
+double lorentzTimeDilation(double t, double percentC){
+    double c = 299792.458;
+    double v = percentC * c;
+    //using formula for the speed of light
+    double c = 299792.458;
+    double v = percentC * c;
+    
+}
 
 
